@@ -1,0 +1,169 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    background-color: white;
+    font-size: 35px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.child-1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    border-radius: 40px;
+    padding: 50px 80px ; 
+    margin: 0;
+    max-width: 50%;
+    z-index: 1;
+    flex-basis: 260px;
+}
+
+.result {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif; 
+    margin: 0;   
+}
+
+.num {
+    display: block;
+    width: 220px;
+    padding: 15px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 1.3em;
+    border-radius: 50%;
+}
+
+.zbi {
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+}
+
+.message { 
+    font-size: 18px;
+    text-align: center;
+}
+
+.mok {
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+}
+
+
+.child-2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    color: black;
+    padding: 50px 80px; 
+    margin: 0px;
+    max-width: 50%;
+    text-align: left;
+    z-index: 0;
+    flex-basis: 260px;
+}
+
+.child-2 .tbon{
+    color: black;
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+.child-2 .ibchi {
+    font-weight: 700;
+    color: hsl(242, 15%, 55%);
+    margin-left: 5px;
+}
+
+.summary {
+    position: relative;
+    font-size: 15px;
+    color: hsl(243, 13%, 31%);
+    margin-bottom: 30px;
+}
+
+.zook {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+img {
+    height: 30px;
+    margin-right: 15px;
+}
+
+.zook * {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.red {
+    color:hwb(1 53% 4%);
+    background-color: rgb(255, 233, 230);
+    padding: 0px 20px ;
+}
+
+.yellow {
+    color:hsl(40, 100%, 73%);
+    background-color:rgb(255, 250, 235);
+    padding: 0px 20px ;
+}
+
+.green {
+    color:hsl(165.77,43.5%,56.27%);
+    background-color: rgb(234, 250, 246);
+    padding: 0px 20px ;
+}
+
+.blue {
+    color:hsl(235.06,42.29%,60.59%);
+    background-color: rgb(245, 252, 255);
+    padding: 0px 20px ;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    padding: 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+@media (max-width: 680px) {
+    .child-2 {
+        padding: 10px;
+        margin: 10px;
+        max-width: 100%;
+    }
+}
